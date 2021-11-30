@@ -1,0 +1,3 @@
+SELECT name FROM people WHERE deathdate IS NULL;
+SELECT title FROM films WHERE budget IS NULL 
+SELECT Count(*) FROM films WHERE language IS NULL 
