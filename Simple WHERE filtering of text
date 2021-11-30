@@ -1,0 +1,4 @@
+SELECT * FROM films WHERE language = 'French' ;
+SELECT name,birthdate FROM people WHERE birthdate = '1974-11-11' ;
+SELECT Count(language) FROM films WHERE language = 'Hindi' ;
+SELECT * FROM films WHERE certification = 'R' ;
