@@ -1,0 +1,7 @@
+-- get the count(deathdate) and multiply by 100.0
+-- then divide by count(*)
+SELECT (count(deathdate)*100.0)/Count(*) as percentage_dead FROM people
+
+SELECT MAX(release_year)-MIN(release_year) as difference FROM films
+
+SELECT (MAX(release_year)-MIN(release_year))/10.0 as number_of_decades FROM films
