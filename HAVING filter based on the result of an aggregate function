@@ -1,0 +1,1 @@
+SELECT release_yearFROM filmsGROUP BY release_year HAVING COUNT(title) > 10;
