@@ -1,0 +1,3 @@
+SELECT title From films
+SELECT release_year From films
+SELECT name From people
